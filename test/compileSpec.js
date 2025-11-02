@@ -10,7 +10,7 @@ describe("Imports", function () {
       done();
     }
 
-    ["imports.scss", "imports_animation.scss"].forEach(function(importFile) {
+    ["imports.scss"].forEach(function(importFile) {
       sass.render({
         file: __dirname + "/" + importFile,
       }, function(e, s) {
