@@ -1,5 +1,5 @@
 // Usually compass hacks apply to both ie6 & 7 -- set this to false to disable support for both.
-$legacy-support-for-ie: true !default;
+$legacy-support-for-ie: false !default;
 
 // Setting this to false will result in smaller output, but no support for ie6 hacks
 $legacy-support-for-ie6: $legacy-support-for-ie !default;
@@ -18,7 +18,7 @@ $legacy-support-for-ie: $legacy-support-for-ie6 or $legacy-support-for-ie7 or $l
 
 // Whether to output legacy support for mozilla.
 // Usually this means hacks to support Firefox 3.6 or earlier.
-$legacy-support-for-mozilla: true;
+$legacy-support-for-mozilla: false;
 
 // Support for mozilla in experimental css3 properties (-moz).
 $experimental-support-for-mozilla      : true !default;
